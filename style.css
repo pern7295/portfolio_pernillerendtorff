@@ -78,17 +78,22 @@ body {
     display: none;
     position: fixed;
     z-index: -2;
+    margin: auto;
+    margin-top: 9rem;
 }
 
 .nav a {
     color: white;
     text-decoration: none;
+    text-align: left;
+
 }
 
 .burger_menu {
-    list-style: none;
-    padding: 3rem;
-    margin-left: 2rem;
+    display: block;
+    padding: 2rem;
+
+
 }
 
 .nav a:hover {
@@ -129,7 +134,7 @@ body {
 
 .change1 {
     animation-name: ease_nav_kf;
-    animation-duration: 0.3s;
+    animation-duration: 0.5s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
@@ -170,39 +175,42 @@ footer {
 
     #navbar {
         display: inline-block;
-        background-color: #27292a;
+        background-color: rgba(255, 255, 255, 0.9);
+        box-shadow: 5px 0px 10px grey;
         width: 100vw;
 
     }
 
     header {
         width: 100vw;
-        text-align: center;
+        text-align: right;
         position: fixed;
         z-index: 1;
     }
 
     #navbar_design a {
-        color: white;
+
     }
 
     .line_design {
         display: inline-block;
-        padding: 1rem;
+        padding-top: 6rem;
+        padding-bottom: 1rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
     }
 
     nav a {
         text-align: center;
         text-decoration: none;
         font-size: 1rem;
+        padding-right: 1rem;
+        color: black;
     }
 
-    a:visited {
-        color: #000000;
-    }
-
-    a:active {
-        color: #6c6963;
+    a:hover {
+        color: #ff00bb;
+        transition-duration: 0.3s;
     }
 
     #menubar {
