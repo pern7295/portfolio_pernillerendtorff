@@ -1,0 +1,12 @@
+#splash {
+    background-image: url(/img/index/stock_index.png);
+    background-size: cover;
+    background-position: 49% 10%;
+    max-width: 100vw;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media only screen and (min-width: 800px) {
+
+}

@@ -10,6 +10,10 @@ img {
     height: auto;
 }
 
+body {
+    background-color: #e6e6e6;
+}
+
 /*------------BURGERMENU----------*/
 #menu {
     width: 3rem;
@@ -88,8 +92,8 @@ img {
 }
 
 .nav a:hover {
-    font-weight: bold;
     color: white;
+    font-weight: bold;
 }
 
 /*-----------BURGERMENU DESIGN-----------*/
@@ -97,7 +101,7 @@ img {
 .menu_img,
 #menubar {
     top: 0;
-    left: 0;
+    left: ;
     position: absolute;
 }
 
@@ -120,10 +124,47 @@ img {
 
 .change {
     display: block;
+    }
+
+
+.change1 {
+    animation-name: ease_nav_kf;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ease_nav_kf {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 
-@media only screen and (min-width: 600px) {
+
+
+/*-----------FOOTER MOBIL--------------*/
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    color: white;
+    background-color: #27292a;
+}
+
+.footer_item {
+    text-align: center;
+    padding: 1rem;
+}
+
+
+@media only screen and (min-width: 800px) {
 
     /*--------DESKTOPMENU-------*/
 
@@ -131,6 +172,7 @@ img {
         display: inline-block;
         background-color: #27292a;
         width: 100vw;
+
     }
 
     header {
@@ -168,8 +210,20 @@ img {
     }
 
     #menu_img {
-    display: none;
-}
+        display: none;
+    }
 
+    /*------FOOTER DESKTOP--------*/
+    footer {
+        background-color: #27292a;
+        width: 100vw;
+    }
+
+    .footer_section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1rem;
+        color: white;
+    }
 
 }
