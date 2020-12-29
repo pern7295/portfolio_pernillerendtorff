@@ -1,0 +1,37 @@
+/*---------HUSK MEDIA QUERY-----------*/
+
+#project_section .section_wrapper {
+    background-color: #ffdddd;
+    text-align: center;
+    padding: 2rem;
+}
+
+#intro_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+#outro_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+#buttons_section .section_wrapper {
+    text-align:  center;
+}
+
+#buttons_section .section_wrapper .tilbage {
+    display: inline-block;
+    padding: 1rem;
+    background-color: white;
+    margin: 1rem;
+}
+
+#buttons_section .section_wrapper .frem {
+    display: inline-block;
+    padding: 1rem;
+    background-color: white;
+    margin: 1rem;
+}

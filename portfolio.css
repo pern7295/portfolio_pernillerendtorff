@@ -1,0 +1,22 @@
+/*---------HUSK MEDIA QUERY-----------*/
+
+#gallery_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+}
+
+#gallery_section .section_wrapper .grid_item {
+    position: relative;
+    text-align: center;
+}
+
+#gallery_section .section_wrapper .stock_p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 1rem;
+    background-color: black;
+}

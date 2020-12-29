@@ -1,0 +1,40 @@
+#velkommen_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+#cv_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+#cv_kompetencer_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1rem;
+}
+
+#cv_ kompetencer_section .section_wrapper .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+
+    text-align: center;
+}
+
+#shortcut_section .section_wrapper {
+    background-color: #ffdddd;
+    text-align: center;
+    padding: 2rem;
+}
+
+#shortcut_section .section_wrapper .button {
+    display: inline-block;
+    padding: 1rem;
+    background-color: white;
+
+}
+
