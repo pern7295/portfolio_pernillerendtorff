@@ -7,8 +7,6 @@
     height: 56.25vw;
 }
 
-
-/*-----SKAL SÆTTE I MEDIA QUERY-----*/
 #portfolio_section .section_wrapper .col {
     background-color: #EEEDE9;
     padding: 4rem;
@@ -95,112 +93,107 @@
     padding: 5rem;
 }
 
-.linje {
-    width: 40vw;
-    height: 2vw;
-    background-color: aliceblue;
-    margin: 0 auto;
-}
+
 
 /*-----DESKTOP-----*/
 @media only screen and (min-width: 1000px) {
     #portfolio_section .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 4rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 4rem;
 
-    background-color: #EEEDE9;
-    padding: 4rem;
-}
+        background-color: #EEEDE9;
+        padding: 4rem;
+    }
 
-.button {
-    display: inline-block;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: white;
-    margin-top: 2rem;
-    text-align: center;
-    background-color: #472B20;
-    color: white;
-    box-shadow: 5px 5px 5px grey;
-}
+    .button {
+        display: inline-block;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: white;
+        margin-top: 2rem;
+        text-align: center;
+        background-color: #472B20;
+        color: white;
+        box-shadow: 5px 5px 5px grey;
+    }
 
-.fine_line {
-    background-color:  #472B20;
-    width: 8%;
-    margin: 0 auto;
+    .fine_line {
+        background-color: #472B20;
+        width: 8%;
+        margin: 0 auto;
 
-}
+    }
 
-.button p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    cursor: pointer;
-}
+    .button p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        cursor: pointer;
+    }
 
-#kompetencer_section .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 5rem;
+    #kompetencer_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 5rem;
 
-    padding: 4rem;
-}
+        padding: 4rem;
+    }
 
-#kompetencer_section h2 {
-    text-align: center;
-    padding-top: 2rem;
-}
+    #kompetencer_section h2 {
+        text-align: center;
+        padding-top: 2rem;
+    }
 
-#kompetencer_section .section_wrapper img {
-    width: 35%;
-    padding: 2rem;
-}
+    #kompetencer_section .section_wrapper img {
+        width: 35%;
+        padding: 2rem;
+    }
 
-#kompetencer_section .section_wrapper .col {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 1rem;
+    #kompetencer_section .section_wrapper .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem;
 
-    text-align: center;
-}
+        text-align: center;
+    }
 
-#citat_section .section_wrapper {
-    background-color: #ffdddd;
-    text-align: center;
-    padding: 2rem;
-}
+    #citat_section .section_wrapper {
+        background-color: #ffdddd;
+        text-align: center;
+        padding: 2rem;
+    }
 
-#contact_section .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 4rem;
+    #contact_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 4rem;
 
-    padding: 4rem;
-    background-color: #B7BFB1;
-}
+        padding: 4rem;
+        background-color: #B7BFB1;
+    }
 
-#contact_section .section_wrapper h6 {
-    font-size: 2rem;
-    text-align: right;
-    padding-top: 2rem
-}
+    #contact_section .section_wrapper h6 {
+        font-size: 2rem;
+        text-align: right;
+        padding-top: 2rem
+    }
 
-#contact_section .section_wrapper .col_right {
-    background-color: #ffffff;
-    padding: 6rem;
-    box-shadow: 5px 5px 10px grey;
-}
+    #contact_section .section_wrapper .col_right {
+        background-color: #ffffff;
+        padding: 6rem;
+        box-shadow: 5px 5px 10px grey;
+    }
 
-#genvej_section .section_wrapper {
-    background-image: url(img/stock/picture5.jpg);
-    background-size: cover;
-    background-position: 49% 10%;
-    text-align: center;
-    padding-top: 50%;
-    padding: 5rem;
-}
+    #genvej_section .section_wrapper {
+        background-image: url(img/stock/picture5.jpg);
+        background-size: cover;
+        background-position: 49% 10%;
+        text-align: center;
+        padding-top: 50%;
+        padding: 5rem;
+    }
 
 }

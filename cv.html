@@ -10,17 +10,55 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cv.css">
 
+    <!--Skrifttyper-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Montserrat:wght@200;400;600&family=Niconne&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
     <!--HUSK FONTFACE-->
     <!--HUSK FAVICON-->
 </head>
 <body>
-    <!--HEADER-->
+    <header>
+        <nav>
+            <!--BURGERMENU-->
+            <div id="menubar">
+                <div id="menu">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <div class="nav" id="nav">
+                    <div id="burger1" class="burger_menu"><a href="index.html">HJEM</a></div>
+
+                    <div id="burger2" class="burger_menu"><a href="cv.html">OM MIG</a></div>
+                    <div id="burger3" class="burger_menu"><a href="portfolio.html">PORTFOLIO</a></div>
+
+                </div>
+            </div>
+
+            <div class="menu_img" id="menu_img"></div>
+
+            <!--DESKTOPMENU-->
+            <div id="navbar">
+                <div id="navbar_design">
+                   <div class="line_design"><a href="index.html">HJEM</a></div>
+                    <div class="line_design"><a href="cv.html">OM MIG</a></div>
+                    <div id="portfolio_nav" class="line_design"><a href="portfolio.html">PORTFOLIO</a></div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
     <main>
         <section id="velkommen_section">
-             <h2>Overskrift</h2>
               <div class="section_wrapper">
                   <div class="col">
-                      <h3>Overskrift 1</h3>
+                     <h2>En tekst bekskriver mig</h2>
+                     <hr>
+                     <br>
+                      <h3>En anden tekst</h3>
+                      <br>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid similique sapiente, in rerum expedita quis voluptas id error dolorem illum. Consequatur quo quas possimus! Commodi nulla amet officia ipsam necessitatibus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium accusantium aut asperiores illo quasi incidunt repellendus minima fugiat voluptates natus. Similique, ut! Consequuntur iusto impedit recusandae magnam cupiditate distinctio, quasi.</p>
                   </div>
                   <div class="col">
                       <img src="img/stock/picture2.jpg" alt="">
@@ -35,7 +73,12 @@
                       <img src="img/stock/picture5.jpg" alt="">
                   </div>
                   <div class="col">
-                      <h3>Overskrift 2</h3>
+                      <h2>En tekst bekskriver mig</h2>
+                     <hr>
+                     <br>
+                      <h3>En anden tekst</h3>
+                      <br>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid similique sapiente, in rerum expedita quis voluptas id error dolorem illum. Consequatur quo quas possimus! Commodi nulla amet officia ipsam necessitatibus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium accusantium aut asperiores illo quasi incidunt repellendus minima fugiat voluptates natus. Similique, ut! Consequuntur iusto impedit recusandae magnam cupiditate distinctio, quasi.</p>
                   </div>
               </div>
           </section>
@@ -49,7 +92,10 @@
                         <img src="img/stock/logo.svg" alt="">
                     </div>
                     <div class="bottom">
-                        <h3>Overskrift 1</h3>
+                        <h3>Adobe-pakken</h3>
+                        <br>
+                        <hr>
+                        <br>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, iste, praesentium architecto harum, dolorum velit quos ipsam id ex consectetur dicta aut eius autem provident nulla adipisci, officiis illo distinctio. Aborum voluptatem. </p>
                     </div>
                 </div>
@@ -59,7 +105,10 @@
                         <img src="img/stock/logo.svg" alt="">
                     </div>
                     <div class="bottom">
-                        <h3>Overskrift 2</h3>
+                        <h3>Grafisk design</h3>
+                        <br>
+                        <hr>
+                        <br>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint accusantium, suscipit voluptatum. Ipsam id corporis, sunt nobis quam, rem modi voluptate velit tempore voluptatum vel iure laborum voluptatem quibusdam. Numquam.</p>
                     </div>
                 </div>
@@ -69,7 +118,10 @@
                         <img src="img/stock/logo.svg" alt="">
                     </div>
                     <div class="bottom">
-                        <h3>Overskrift 3</h3>
+                        <h3>Brackets</h3>
+                        <br>
+                        <hr>
+                        <br>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolores distinctio quos quisquam voluptatum vero molestiae ex reiciendis amet doloribus. Error perspiciatis illum numquam, odit, ducimus quibusdam. Ullam, ex, laborum.</p>
                     </div>
                 </div>
@@ -80,15 +132,21 @@
 
         <section id="shortcut_section">
             <div class="section_wrapper">
-                <h2>Overskrift 4</h2>
-                <div class="button">
-                Dette er en knap</div>
+                <h2>Portfolio genvej</h2>
+                <div class="button"><a href="portfolio.html"><p>Se min portfolio</p></a></div>
             </div>
         </section>
 
     </main>
 
-   <!--FOOTER-->
+   <footer>
+        <div class="footer_section">
+            <div class="footer_item">
+                <p>©Pernille Rendtorff │ 1. Semester │ Multimediedesigner</p>
+                <p>2020 / 2021</p>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>

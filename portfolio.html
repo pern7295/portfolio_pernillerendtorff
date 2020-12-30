@@ -10,72 +10,94 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="portfolio.css">
 
+    <!--Skrifttyper-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Montserrat:wght@200;400;600&family=Niconne&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
     <!--HUSK FONTFACE-->
     <!--HUSK FAVICON-->
 </head>
 <body>
-    <!--HEADER-->
+    <header>
+        <nav>
+            <!--BURGERMENU-->
+            <div id="menubar">
+                <div id="menu">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <div class="nav" id="nav">
+                    <div id="burger1" class="burger_menu"><a href="index.html">HJEM</a></div>
+
+                    <div id="burger2" class="burger_menu"><a href="cv.html">OM MIG</a></div>
+                    <div id="burger3" class="burger_menu"><a href="portfolio.html">PORTFOLIO</a></div>
+
+                </div>
+            </div>
+
+            <div class="menu_img" id="menu_img"></div>
+
+            <!--DESKTOPMENU-->
+            <div id="navbar">
+                <div id="navbar_design">
+                   <div class="line_design"><a href="index.html">HJEM</a></div>
+                    <div class="line_design"><a href="cv.html">OM MIG</a></div>
+                    <div id="portfolio_nav" class="line_design"><a href="portfolio.html">PORTFOLIO</a></div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
 
    <main>
 
 
        <section id="front_section">
            <div class="section_wrapper">
-               <img src="img/stock/picture2.jpg" alt="">
            </div>
        </section>
 
 
        <section id="gallery_section">
+          <h2>Min Portfolio</h2>
            <div class="section_wrapper">
-               <div class="grid_item">
-                   <img src="img/stock/picture1.jpg" alt="">
-                   <div class="stock_p">
-                     <p>Billede 1</p>
-                 </div>
-               </div>
-                <div class="grid_item">
-                   <img src="img/stock/picture1.jpg" alt="">
-                   <div class="stock_p">
-                     <p>Billede 2</p>
-                 </div>
-               </div>
-                <div class="grid_item">
-                   <img src="img/stock/picture1.jpg" alt="">
-                   <div class="stock_p">
-                     <p>Billede 3</p>
-                 </div>
-               </div>
-                <div class="grid_item">
-                   <img src="img/stock/picture1.jpg" alt="">
-                   <div class="stock_p">
-                     <p>Billede 4</p>
-                 </div>
-               </div>
-                <div class="grid_item">
-                   <img src="img/stock/picture1.jpg" alt="">
-                   <div class="stock_p">
-                     <p>Billede 5</p>
-                 </div>
-               </div>
-                <div class="grid_item">
-                   <img src="img/stock/picture1.jpg" alt="">
-                   <div class="stock_p">
-                     <p>Billede 6</p>
-                 </div>
-               </div>
-                <div class="grid_item">
-                   <img src="img/stock/picture1.jpg" alt="">
-                   <div class="stock_p">
-                     <p>Billede 7</p>
-                 </div>
-               </div>
-                <div class="grid_item">
-                   <img src="img/stock/picture1.jpg" alt="">
-                   <div class="stock_p">
-                     <p>Billede 8</p>
-                 </div>
-               </div>
+              <div class="port_container">
+                   <img src="img/stock/picture1.jpg" class="port_image" alt="">
+                   <div class="overlay">Billede 1</div>
+                </div>
+                  <div class="port_container">
+                   <img src="img/stock/picture2.jpg" class="port_image" alt="">
+                   <div class="overlay">Billede 2</div>
+                </div>
+                <div class="port_container">
+                   <img src="img/stock/picture3.jpg" class="port_image" alt="">
+                   <div class="overlay">Billede 3</div>
+                </div>
+                <div class="port_container">
+                   <img src="img/stock/picture4.jpg" class="port_image" alt="">
+                   <div class="overlay">Billede 4</div>
+                </div>
+                <div class="port_container">
+                   <img src="img/stock/picture5.jpg" class="port_image" alt="">
+                   <div class="overlay">Billede 5</div>
+                </div>
+                <div class="port_container">
+                   <img src="img/stock/picture6.jpg" class="port_image" alt="">
+                   <div class="overlay">Billede 6</div>
+                </div>
+                <div class="port_container">
+                   <img src="img/stock/picture4.jpg" class="port_image" alt="">
+                   <div class="overlay">Billede 7</div>
+                </div>
+                <div class="port_container">
+                   <img src="img/stock/picture2.jpg" class="port_image" alt="">
+                   <div class="overlay">Billede 8</div>
+                </div>
+
+
+
+
 
            </div>
        </section>
@@ -83,7 +105,14 @@
 
    </main>
 
-   <!--FOOTER-->
+   <footer>
+        <div class="footer_section">
+            <div class="footer_item">
+                <p>©Pernille Rendtorff │ 1. Semester │ Multimediedesigner</p>
+                <p>2020 / 2021</p>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
