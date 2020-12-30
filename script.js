@@ -4,6 +4,7 @@ window.addEventListener("load", sidenVises);
 function sidenVises() {
     console.log("sidenVises");
     document.querySelector("#menu").addEventListener("click", onClickMenu);
+    document.querySelector("#dots").addEventListener("click", onClickDot);
 }
 
 /*--FUNCTION TIL BURGERMENU---*/
@@ -18,4 +19,5 @@ function onClickMenu() {
     document.getElementById("burger3").classList.toggle("change1");
     document.getElementById("burger4").classList.toggle("change1");
 }
+
 

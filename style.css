@@ -11,8 +11,62 @@ img {
 }
 
 body {
-    background-color: #e6e6e6;
+    background-color: #F7F7F7;
 }
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h6 {
+    font-family: 'Dawning of a New Day', cursive;
+    font-weight: 100;
+    text-align: center;
+    font-size: 3rem;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+
+a:hover {
+    color: #c3ad9c;
+    transition-duration: 0.3s;
+}
+
+hr {
+    background-color: #472B20;
+    padding: 1%;
+    border: none;
+
+}
+
+/*
+------------SKRIFTTYPER------------------
+font-family: 'Dawning of a New Day', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
 
 /*------------BURGERMENU----------*/
 #menu {
@@ -129,7 +183,7 @@ body {
 
 .change {
     display: block;
-    }
+}
 
 
 .change1 {
@@ -144,16 +198,15 @@ body {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
 }
 
 
-
-
 /*-----------FOOTER MOBIL--------------*/
-footer a{
+footer a {
     text-decoration: none;
     color: white;
 }
@@ -169,7 +222,7 @@ footer {
 }
 
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
 
     /*--------DESKTOPMENU-------*/
 
@@ -188,38 +241,31 @@ footer {
         z-index: 1;
     }
 
-    #navbar_design a {
-
-    }
+    #navbar_design a {}
 
     .line_design {
         display: inline-block;
-        padding-top: 6rem;
+        padding-top: 2.5rem;
         padding-bottom: 1rem;
         padding-right: 3rem;
         padding-left: 1.5rem;
     }
 
-    .line_design_portfolio {
-        display: inline-block;
-        padding: 1rem;
-        background-color: #a3a3a3;
-        border-radius: 1rem;
-        margin-right: 2rem;
-        margin-bottom: 0.6rem;
-        text-align: center;
+    #portfolio_nav a {
+        font-weight: bold;
+
+    }
+
+    .line_design_portfolio a {
+        color: white;
+        padding: 0.4rem;
     }
 
     nav a {
         text-decoration: none;
         font-size: 1rem;
         padding-right: 1rem;
-        color: black;
-    }
-
-    a:hover {
-        color: #ff00bb;
-        transition-duration: 0.3s;
+        color: #472B20;
     }
 
     #menubar {
