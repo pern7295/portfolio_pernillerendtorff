@@ -14,48 +14,90 @@
     <!--HUSK FAVICON-->
 </head>
 <body>
-    <!--HEADER-->
+    <header>
+        <nav>
+            <!--BURGERMENU-->
+            <div id="menubar">
+                <div id="menu">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <div class="nav" id="nav">
+                    <div id="burger1" class="burger_menu"><a href="index.html">HJEM</a></div>
+
+                    <div id="burger2" class="burger_menu"><a href="cv.html">OM MIG</a></div>
+                    <div id="burger3" class="burger_menu"><a href="index.html">PORTFOLIO</a></div>
+
+                </div>
+            </div>
+
+            <div class="menu_img" id="menu_img"></div>
+
+            <!--DESKTOPMENU-->
+            <div id="navbar">
+                <div id="navbar_design">
+                   <div class="line_design"><a href="index.html">HJEM</a></div>
+                    <div class="line_design"><a href="cv.html">OM MIG</a></div>
+                    <div id="portfolio_nav" class="line_design"><a href="portfolio.html">PORTFOLIO</a></div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
 
       <main>
           <section id="project_section">
               <div class="section_wrapper">
-                  <h3>Dette er en overskrift</h3>
+                  <h1>Projekt 01</h1>
               </div>
           </section>
 
 
           <section id="intro_section">
               <div class="section_wrapper">
-                  <div class="col">
+                  <div class="col_left">
+                     <h2>Velkommen til projekt 01</h2>
+                     <hr>
+                     <br>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit dolor amet, iste inventore ab quo ullam vero voluptates ea culpa nisi necessitatibus id obcaecati provident dolorum reprehenderit, excepturi alias itaque.</p>
                   </div>
-                  <div class="col">
+                  <div class="col_right">
                       <img src="img/stock/picture4.jpg" alt="">
                   </div>
               </div>
           </section>
 
 
-          <section id="display_section">
+          <!--
+             <section id="display_section">
               <div class="section_wrapper">
                   <img src="img/stock/picture5.jpg" alt="">
               </div>
           </section>
+          -->
 
           <section id="outro_section">
               <div class="section_wrapper">
-                  <div class="col">
+                  <div class="col_desktop">
                       <img src="img/stock/picture6.jpg" alt="">
                   </div>
                   <div class="col">
+                     <h2>Information om projekt 01</h2>
+                     <br>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ipsam dolor rerum adipisci asperiores labore et quas illo cupiditate! Assumenda, suscipit odit soluta illo consequuntur eius aliquam maiores pariatur laborum.</p>
+                  </div>
+                  <div class="col_mobile">
+                      <img src="img/stock/picture6.jpg" alt="">
                   </div>
               </div>
           </section>
 
-          <section id="resmue_section">
+          <section id="resume_section">
               <div class="section_wrapper">
-                  <h2>Portfolio galleri</h2>
+                  <h2>Projekt resume</h2>
+                  <hr>
+                  <br>
                   <div class="txt">
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat maxime culpa laboriosam ipsam ullam ipsa magnam, dicta, id aut recusandae nulla aperiam laudantium omnis pariatur vero repellendus. Odio, iusto, eaque?</p>
                       <br>
@@ -69,20 +111,23 @@
 
           <section id="buttons_section">
               <div class="section_wrapper">
-                  <div class="tilbage">TILBAGE KNAP</div>
-                  <div class="frem">
-                      FREMAD KNAP
+                  <div id="tilbage" class="button_project"><p>Forrige projekt</p></div>
+                  <div id="frem" class="button_project">
+                      <p>Næste projekt</p>
                   </div>
               </div>
           </section>
 
       </main>
 
-
-
-
-
-   <!--FOOTER-->
+   <footer>
+        <div class="footer_section">
+            <div class="footer_item">
+                <p>©Pernille Rendtorff │ 1. Semester │ Multimediedesigner</p>
+                <p>2020 / 2021</p>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
