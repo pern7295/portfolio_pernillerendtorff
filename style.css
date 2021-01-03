@@ -12,6 +12,7 @@ img {
 
 body {
     background-color: #F7F7F7;
+    max-width: 100vw;
 }
 
 h2 {
@@ -54,12 +55,6 @@ a:hover {
     transition-duration: 0.3s;
 }
 
-hr {
-    background-color: #472B20;
-    padding: 1%;
-    border: none;
-
-}
 
 /*
 ------------SKRIFTTYPER------------------

@@ -4,14 +4,26 @@
     background-position: 49% 10%;
     max-width: 100vw;
     width: 100vw;
-    height: 56.25vw;
+    height: 100vh;
 }
 
-#portfolio_section .section_wrapper .col {
+#portfolio_section .section_wrapper .col_left {
     background-color: #EEEDE9;
     padding: 4rem;
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
+
+    text-align: center;
+}
+
+#portfolio_section .section_wrapper .col_right {
+    background-color: #EEEDE9;
+}
+
+#portfolio_section .section_wrapper .col_right img {
+    object-fit: cover;
+    width: 100%;
+    height: 70vh;
 }
 
 .button {
@@ -43,12 +55,15 @@
 
 #kompetencer_section h2 {
     text-align: center;
-    padding: 2rem;
+    margin-top: 1rem;
 }
 
 #kompetencer_section .section_wrapper img {
     width: 35%;
-    padding: 2rem;
+    border-radius: 50%;
+    margin: 1rem;
+
+    background-color: #936C6C;
 }
 
 #kompetencer_section .section_wrapper .col {
@@ -58,6 +73,14 @@
     padding: 1rem;
 
     text-align: center;
+}
+
+#kompetencer_section .hr_line {
+    background-color: #d9d9d9;
+    padding: 0.1rem;
+    margin-left: 47vw;
+    margin-right: 47vw;
+    margin-top: 0.5rem;
 }
 
 #contact_section .section_wrapper {
@@ -97,14 +120,41 @@
 
 /*-----DESKTOP-----*/
 @media only screen and (min-width: 1000px) {
+
+    #splash_section {
+        height: 100vh;
+    }
+
     #portfolio_section .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1.5fr;
         grid-column-gap: 4rem;
 
         background-color: #EEEDE9;
-        padding: 4rem;
     }
+
+    #portfolio_section .section_wrapper .col_left {
+        background-color: #EEEDE9;
+        padding: 4rem;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+
+        margin: 4rem;
+
+        text-align: left;
+    }
+
+    #portfolio_section .section_wrapper .col_right {
+        background-color: #EEEDE9;
+    }
+
+    #portfolio_section .section_wrapper .col_right img {
+        object-fit: cover;
+        width: 80%;
+        float: right;
+        height: 100vh;
+    }
+
 
     .button {
         display: inline-block;
@@ -143,12 +193,11 @@
 
     #kompetencer_section h2 {
         text-align: center;
-        padding-top: 2rem;
+        margin-top: 1rem;
     }
 
     #kompetencer_section .section_wrapper img {
         width: 35%;
-        padding: 2rem;
     }
 
     #kompetencer_section .section_wrapper .col {
@@ -158,12 +207,6 @@
         padding: 1rem;
 
         text-align: center;
-    }
-
-    #citat_section .section_wrapper {
-        background-color: #ffdddd;
-        text-align: center;
-        padding: 2rem;
     }
 
     #contact_section .section_wrapper {
