@@ -1,3 +1,8 @@
+h6 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
 #velkommen_section .section_wrapper {
     padding-top: 3rem;
     background-color: #AFC5BC;
@@ -49,6 +54,16 @@
     padding: 2rem;
 }
 
+#cv_kompetencer_section {
+    padding: 4rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.hr_line {
+    display: none;
+}
+
 #cv_kompetencer_section .hr_line {
     background-color: #EEEDE9;
     padding: 0.1rem;
@@ -63,7 +78,6 @@
 }
 
 #cv_kompetencer_section .section_wrapper {
-    padding: 8rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
 
@@ -89,18 +103,28 @@
 }
 
 #shortcut_section .section_wrapper {
-        background-image: url("img/stock/stock_index.jpg");
-        min-height: 20vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
-        padding-top: 50%;
-        padding: 5rem;
-    }
+    background-image: url("img/stock/stock_index.jpg");
+    min-height: 20vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50%;
+    padding: 5rem;
+}
+
+#kompetencer {
+    padding: 2rem;
+    background-color: #AFC5BC;
+}
 
 @media only screen and (min-width: 1000px) {
+
+    h6 {
+        font-size: 3rem;
+        padding: 2rem;
+    }
 
     #velkommen_section .section_wrapper {
         display: grid;
@@ -161,6 +185,12 @@
         padding: 4rem;
     }
 
+    #cv_kompetencer_section {
+        padding: 8rem;
+        padding-top: 2rem;
+        text-align: center;
+    }
+
     #cv_kompetencer_section .section_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -194,22 +224,22 @@
         text-align: center;
     }
 
-.pulse {
-    animation-name: pulse_kf;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-@keyframes pulse_kf{
-    0% {
-        transform: scale(0.9);
+    .pulse {
+        animation-name: pulse_kf;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
     }
 
-    100% {
-        transform: scale(1);
+    @keyframes pulse_kf {
+        0% {
+            transform: scale(0.9);
+        }
+
+        100% {
+            transform: scale(1);
+        }
     }
-}
 
 
 }

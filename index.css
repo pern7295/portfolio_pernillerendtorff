@@ -2,10 +2,49 @@
     background-image: url(img/stock/picture6.jpg);
     background-size: cover;
     background-position: 49% 10%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     max-width: 100vw;
     width: 100vw;
     height: 100vh;
+
 }
+
+#splash_section .section_wrapper {
+    position: absolute;
+    top: 50vh;
+}
+/*----------ANIMATION-------------*/
+
+.splash_ani {
+    animation-name: splash_ani_kf;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+
+}
+
+@keyframes splash_ani_kf{
+    0% {
+        transform: translateX(0%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(100%);
+        opacity: 1;
+    }
+}
+
+#splash_section .section_wrapper .splash_txt {
+    text-align: center;
+}
+
+
+
+/*------------------------------*/
 
 #portfolio_section .section_wrapper {
     background-color: #AFC5BC;
