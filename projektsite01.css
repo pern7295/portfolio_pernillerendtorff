@@ -1,13 +1,18 @@
 /*---------HUSK MEDIA QUERY-----------*/
+body {
+    background-color: #EEEDE9;
+}
+
+h1 {
+        font-weight: 600;
+    }
 
 #project_section .section_wrapper {
-    background-color: #EEEDE9;
     text-align: center;
     padding: 2rem;
 }
 
 #intro_section .section_wrapper .col_left {
-    background-color: #EEEDE9;
     padding: 4rem;
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
@@ -15,34 +20,24 @@
     text-align: center;
 }
 
-#intro_section .section_wrapper .col_right {
-    background-color: #EEEDE9;
-}
-
-#intro_section .section_wrapper .col_right img {
-    object-fit: cover;
-    width: 100%;
-    height: 60vh;
-}
-
 #display_section .section_wrapper {
     /*BILLEDEGALLERI*/
 }
 
 #outro_section .section_wrapper {
-    background-color: #B7BFB1;
-    padding: 4rem;
-    text-align: center;
+    background-color: #AFC5BC;
 }
 
 #outro_section .section_wrapper .col {
-    margin-bottom: 2rem;
+    padding: 4rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    color: white;
 }
 
-#outro_section .section_wrapper img {
-    object-fit: cover;
-    width: 100%;
-    height: 60vh;
+
+#outro_section .section_wrapper .col {
+    margin-bottom: 2rem;
 }
 
 #outro_section .section_wrapper .col_desktop {
@@ -52,8 +47,9 @@
 #resume_section .section_wrapper {
     text-align: center;
     padding: 4rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 1rem;
 }
 
 #buttons_section .section_wrapper {
@@ -69,7 +65,7 @@
     background-color: white;
     margin-top: 2rem;
     text-align: center;
-    background-color: #472B20;
+    background-color: #D5B6A2;
     color: white;
     box-shadow: 5px 5px 5px grey;
 }
@@ -89,33 +85,26 @@
 
     #intro_section .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-column-gap: 4rem;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 4rem;
 
-        background-color: #EEEDE9;
-    }
-
-
-    #intro_section .section_wrapper .col_left {
-        background-color: #EEEDE9;
-        padding: 4rem;
-        padding-bottom: 1.5rem;
-        padding-top: 1.5rem;
-
-        margin: 4rem;
-
+        padding: 2rem;
+        margin-top: 1rem;
         text-align: left;
     }
+
 
     #intro_section .section_wrapper .col_right {
         background-color: #EEEDE9;
     }
 
     #intro_section .section_wrapper .col_right img {
-        object-fit: cover;
-        width: 80%;
-        float: right;
-        height: 70vh;
+        box-shadow: 5px 5px 5px grey;
+    }
+
+    #intro_section .section_wrapper .col_left {
+        margin-top: 10%;
+        text-align: left;
     }
 
     #outro_section .section_wrapper {
@@ -125,11 +114,13 @@
 
         padding: 2rem;
         margin-top: 1rem;
+
         text-align: left;
     }
 
     #outro_section .section_wrapper .col {
-        margin-top: 25%;
+        margin-top: 10%;
+        text-align: left;
     }
 
     #outro_section .section_wrapper .col_mobile {
@@ -148,5 +139,19 @@
     .button_project {
         display: inline-block;
         margin: 4rem;
+    }
+
+    #resume_section .section_wrapper {
+        text-align: center;
+        padding: 4rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    h2 {
+        font-size: 1.7rem;
     }
 }

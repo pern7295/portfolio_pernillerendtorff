@@ -11,9 +11,14 @@ img {
 }
 
 body {
-    background-color: #F7F7F7;
+    background-color: #EEEDE9;
     max-width: 100vw;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 
 h1 {
     font-family: 'Montserrat', sans-serif;
@@ -22,7 +27,9 @@ h1 {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.7rem;
+    font-weight: 100;
+
+    font-size: 2em;
 
 }
 
@@ -56,7 +63,7 @@ a:link {
 
 
 a:hover {
-    color: #c3ad9c;
+    color: #5a3a21;
     transition-duration: 0.3s;
 }
 
@@ -80,7 +87,7 @@ font-family: 'Open Sans', sans-serif;
 .bar {
     height: 0.3rem;
     width: 100%;
-    background-color: black;
+    background-color: #67897b;
     display: block;
     border-radius: 1rem;
     transition: 0.4s ease;
@@ -160,7 +167,6 @@ font-family: 'Open Sans', sans-serif;
 .menu_img,
 #menubar {
     top: 0;
-    left: ;
     position: absolute;
 }
 
@@ -168,7 +174,7 @@ font-family: 'Open Sans', sans-serif;
     z-index: 1;
     width: 0;
     height: 0;
-    background-color: #472B20;
+    background-color: #AFC5BC;
     transition: 0.3s ease;
 }
 
@@ -227,10 +233,9 @@ footer {
     padding-right: 5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: white;
     margin-top: 2rem;
     text-align: center;
-    background-color: #472B20;
+    background-color: #D5B6A2;
     color: white;
     box-shadow: 5px 5px 5px grey;
 }

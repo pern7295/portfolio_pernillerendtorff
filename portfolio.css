@@ -62,8 +62,19 @@
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-family: 'Dawning of a New Day', cursive;
 }
+
+#gallery_section .section_wrapper .port_container .overlay h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+}
+
+#gallery_section .section_wrapper .port_container .overlay p {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 1.4rem;
+}
+
+/*--------DESKTOP VERSION-------*/
 
 @media only screen and (min-width: 1000px) {
 
@@ -94,34 +105,8 @@
         box-shadow: 5px 5px 10px grey
     }
 
-    .port_container {
-        position: relative;
-        width: 100%;
-    }
-
-    /*-----RESPONSIVE BILLEDER--------*/
-    .port_image {
-        display: block;
-        width: 100%;
-        height: auto;
-        transition: transform .2s;
-    }
-
-    .port_image:hover {
-        transform: scale(1.05);
-    }
-
     .overlay {
-        position: absolute;
-        top: 88%;
+        top: 86%;
         left: 50%;
-        transform: translate(-50%, -50%);
-        color: black;
-        width: 100%;
-        font-size: 2rem;
-        text-align: center;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        font-family: 'Dawning of a New Day', cursive;
     }
 }

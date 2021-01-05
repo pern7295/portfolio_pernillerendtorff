@@ -1,0 +1,287 @@
+/*--------ANCHOR POINT----------*/
+body {
+    background-color: #F4EDE7;
+}
+
+
+.linje {
+    background-color: #AFC5BC;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 0.2rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+#first_section {
+    padding-top: 4rem;
+
+}
+
+#first_section .section_wrapper .first {
+    text-align: center;
+    padding: 3rem;
+}
+
+#first_section .section_wrapper .tema_nav {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+#first_section .section_wrapper .tema_navigation {
+    display: inline-flex;
+    padding: 0.35rem;
+
+}
+
+#first_section .section_wrapper .tema_navigation h2 {
+    color: black;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#first_section .section_wrapper .tema_navigation h2:hover {
+    color: #c3ad9c;
+    transition-duration: 0.3s;
+}
+
+#first_section .section_wrapper .tema_navigation1 {
+    display: inline-flex;
+    text-align: center;
+}
+
+/*-----------TEMA 2------------*/
+#tema02 {
+    background-color: #AFC5BC;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
+    color: white;
+}
+
+#tema02 .section_wrapper {
+    text-align: center;
+}
+
+#tema02 .section_wrapper .gallery img {
+    text-align: center;
+    object-fit: cover;
+    width: 100%;
+    height: 30vh;
+}
+
+#tema02 .section_wrapper .txt {
+    padding: 2rem;
+}
+
+
+/*-----------TEMA 3------------*/
+
+#tema03 {}
+
+#tema03 .section_wrapper {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#tema03 .section_wrapper .gallery img {
+    text-align: center;
+    object-fit: cover;
+    width: 90%;
+    height: 30vh;
+}
+
+#tema03 .section_wrapper .txt {
+    padding: 2rem;
+}
+
+/*-----------TEMA 4------------*/
+
+#tema04 {
+    background-color: #AFC5BC;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
+    color: white;
+}
+
+#tema04 .section_wrapper {
+    text-align: center;
+}
+
+#tema04 .section_wrapper .gallery img {
+    text-align: center;
+    object-fit: cover;
+    width: 90%;
+    height: 30vh;
+}
+
+#tema04 .section_wrapper .txt {
+    padding: 2rem;
+}
+
+
+/*-----------TEMA 5------------*/
+#tema05 {}
+
+#tema05 .section_wrapper {
+    text-align: center;
+}
+
+#tema05 .section_wrapper .gallery img {
+    text-align: center;
+    object-fit: cover;
+    width: 90%;
+    height: 30vh;
+}
+
+#tema05 .section_wrapper .txt {
+    padding: 2rem;
+}
+
+
+#end_section .section_wrapper {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+    main img:hover {
+        animation-name: gallery_kf;
+        animation-duration: 0.1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: both;
+        animation-timing-function: linear;
+    }
+
+    @keyframes gallery_kf {
+        0% {
+            transform: scale(1) translateY(0vw);
+        }
+
+        100% {
+            transform: scale(1.05) translateY(-1vw);
+        }
+    }
+
+    #first_section .section_wrapper .first {
+        margin-left: 15em;
+        margin-right: 15rem;
+    }
+
+    #first_section .section_wrapper .tema_nav {
+        margin: 0;
+    }
+
+    #tema02 .section_wrapper .txt {
+        margin-left: 15em;
+        margin-right: 15rem;
+    }
+
+    #tema02 .section_wrapper .gallery {
+        display: inline-block;
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    #tema02 .section_wrapper .gallery img {
+        width: 30vw;
+        padding: 1rem;
+        background-color: white;
+        box-shadow: 5px 5px 10px grey;
+        padding-bottom: 4rem;
+    }
+
+    #tema03 .section_wrapper .txt {
+        margin-left: 15em;
+        margin-right: 15rem;
+    }
+
+    #tema03 .section_wrapper .gallery {
+        display: inline-block;
+        width: 100vw;
+        margin: 0 auto;
+
+    }
+
+    #tema03 .section_wrapper .gallery img {
+        width: 30vw;
+
+        padding: 1rem;
+        background-color: white;
+        box-shadow: 5px 5px 10px grey;
+        padding-bottom: 4rem;
+    }
+
+    #tema04 .section_wrapper .txt {
+        margin-left: 15em;
+        margin-right: 15rem;
+    }
+
+    #tema04 .section_wrapper .gallery {
+        display: inline-block;
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    #tema04 .section_wrapper .gallery img {
+        width: 30vw;
+
+        padding: 1rem;
+        background-color: white;
+        box-shadow: 5px 5px 10px grey;
+        padding-bottom: 4rem;
+    }
+
+    #tema05 .section_wrapper .txt {
+        margin-left: 15em;
+        margin-right: 15rem;
+    }
+
+    #tema05 .section_wrapper .gallery {
+        display: inline-block;
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    #tema05 .section_wrapper .gallery img {
+        width: 30vw;
+
+        padding: 1rem;
+        background-color: white;
+        box-shadow: 5px 5px 10px grey;
+        padding-bottom: 4rem;
+    }
+
+}
+
+
+/*-----------EKSTERNE MOBILREGLER----------------*/
+@media only screen and (max-width: 1000px) {
+
+    #tema02 .section_wrapper .gallery {
+        overflow: auto;
+        white-space: nowrap;
+    }
+
+    #tema03 .section_wrapper .gallery {
+        overflow: auto;
+        white-space: nowrap;
+    }
+
+    #tema04 .section_wrapper .gallery {
+        overflow: auto;
+        white-space: nowrap;
+    }
+
+    #tema05 .section_wrapper .gallery {
+        overflow: auto;
+        white-space: nowrap;
+    }
+}
+
