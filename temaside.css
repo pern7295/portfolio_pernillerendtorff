@@ -3,6 +3,10 @@ body {
     background-color: #F4EDE7;
 }
 
+h6 {
+    font-size: 1.7rem;
+}
+
 
 .linje {
     background-color: #AFC5BC;
@@ -69,7 +73,7 @@ body {
     text-align: center;
     object-fit: cover;
     width: 100%;
-    height: 30vh;
+    height: 100%;
 }
 
 #tema02 .section_wrapper .txt {
@@ -78,8 +82,6 @@ body {
 
 
 /*-----------TEMA 3------------*/
-
-#tema03 {}
 
 #tema03 .section_wrapper {
     margin-top: 2rem;
@@ -90,7 +92,7 @@ body {
     text-align: center;
     object-fit: cover;
     width: 90%;
-    height: 30vh;
+
 }
 
 #tema03 .section_wrapper .txt {
@@ -115,7 +117,6 @@ body {
     text-align: center;
     object-fit: cover;
     width: 90%;
-    height: 30vh;
 }
 
 #tema04 .section_wrapper .txt {
@@ -124,7 +125,6 @@ body {
 
 
 /*-----------TEMA 5------------*/
-#tema05 {}
 
 #tema05 .section_wrapper {
     text-align: center;
@@ -134,7 +134,6 @@ body {
     text-align: center;
     object-fit: cover;
     width: 90%;
-    height: 30vh;
 }
 
 #tema05 .section_wrapper .txt {
@@ -192,9 +191,7 @@ body {
     #tema02 .section_wrapper .gallery img {
         width: 30vw;
         padding: 1rem;
-        background-color: white;
-        box-shadow: 5px 5px 10px grey;
-        padding-bottom: 4rem;
+
     }
 
     #tema03 .section_wrapper .txt {
@@ -203,7 +200,8 @@ body {
     }
 
     #tema03 .section_wrapper .gallery {
-        display: inline-block;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         width: 100vw;
         margin: 0 auto;
 
@@ -211,11 +209,7 @@ body {
 
     #tema03 .section_wrapper .gallery img {
         width: 30vw;
-
         padding: 1rem;
-        background-color: white;
-        box-shadow: 5px 5px 10px grey;
-        padding-bottom: 4rem;
     }
 
     #tema04 .section_wrapper .txt {
@@ -224,18 +218,15 @@ body {
     }
 
     #tema04 .section_wrapper .gallery {
-        display: inline-block;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         width: 100vw;
         margin: 0 auto;
     }
 
     #tema04 .section_wrapper .gallery img {
         width: 30vw;
-
         padding: 1rem;
-        background-color: white;
-        box-shadow: 5px 5px 10px grey;
-        padding-bottom: 4rem;
     }
 
     #tema05 .section_wrapper .txt {
@@ -244,18 +235,15 @@ body {
     }
 
     #tema05 .section_wrapper .gallery {
-        display: inline-block;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         width: 100vw;
         margin: 0 auto;
     }
 
     #tema05 .section_wrapper .gallery img {
         width: 30vw;
-
         padding: 1rem;
-        background-color: white;
-        box-shadow: 5px 5px 10px grey;
-        padding-bottom: 4rem;
     }
 
 }
@@ -283,5 +271,9 @@ body {
         overflow: auto;
         white-space: nowrap;
     }
+
+    .gallery h6{
+    display: none;
+}
 }
 
