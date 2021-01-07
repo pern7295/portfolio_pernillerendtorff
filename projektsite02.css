@@ -1,0 +1,52 @@
+main {
+    padding: 6rem;
+}
+
+ul {
+    padding-left: 3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.col_side a {
+    color: #F49F8A;
+}
+
+.col_side a:hover {
+    color: black;
+}
+
+.button a:hover {
+    color: black;
+}
+
+.center {
+    text-align: center;
+    padding: 2rem;
+    color: #F49F8A;
+    font-style: italic;
+}
+
+#end_section .section_wrapper .button {
+    background-color: #F49F8A;
+}
+
+@media only screen and (min-width: 1000px) {
+
+    main {
+        padding: 10rem;
+    }
+
+    #first_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+        grid-gap: 2rem;
+    }
+
+    #end_section .section_wrapper {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+}

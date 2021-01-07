@@ -3,22 +3,22 @@ body {
 }
 
 #splash_section {
-    background-image: url(img/stock/stock_index.jpg);
-    background-size: cover;
-    background-position: 49% 10%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100vw;
-    width: 100vw;
-    height: 100vh;
+        background-image: url(img/index/splash.png);
+        background-size: cover;
+        background-position: 29%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        max-width: 100vw;
+        width: 100vw;
+        height: 100vh;
 
-}
+    }
 
 #splash_section .section_wrapper {
     position: absolute;
     top: 50vh;
 }
+
 /*----------ANIMATION-------------*/
 
 .splash_ani {
@@ -30,7 +30,7 @@ body {
 
 }
 
-@keyframes splash_ani_kf{
+@keyframes splash_ani_kf {
     0% {
         transform: translateX(-10vw);
         opacity: 0;
@@ -79,42 +79,6 @@ body {
 
 }
 
-#kompetencer_section .section_wrapper {
-    padding: 4rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    vertical-align: top;
-}
-
-#kompetencer_section h2 {
-    text-align: center;
-    margin-top: 1rem;
-}
-
-#kompetencer_section .section_wrapper img {
-    width: 35%;
-    border-radius: 50%;
-    margin: 1rem;
-
-    background-color: #F4EDE7;
-}
-
-#kompetencer_section .section_wrapper .col {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 1rem;
-
-    text-align: center;
-}
-
-#kompetencer_section .hr_line {
-    background-color: #d9d9d9;
-    padding: 0.1rem;
-    margin-left: 47vw;
-    margin-right: 47vw;
-    margin-top: 0.5rem;
-}
 
 #contact_section .section_wrapper {
     padding: 4rem;
@@ -126,6 +90,7 @@ body {
 #contact_section .section_wrapper .col {
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
+    margin: 0 auto;
 }
 
 #contact_section .section_wrapper h6 {
@@ -141,7 +106,7 @@ body {
 }
 
 #genvej_section .section_wrapper {
-    background-image: url(img/stock/picture5.jpg);
+    background-image: url(img/index/index_1.jpg);
     background-size: cover;
     background-position: 49% 10%;
     text-align: center;
@@ -153,6 +118,19 @@ body {
 
 /*-----DESKTOP-----*/
 @media only screen and (min-width: 1000px) {
+
+    #splash_section {
+        background-image: url(img/index/splash.png);
+        background-size: cover;
+        background-position: 10%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100vw;
+        width: 100vw;
+        height: 100vh;
+
+    }
 
     #splash_section {
         height: 100vh;
@@ -191,31 +169,6 @@ body {
         cursor: pointer;
     }
 
-    #kompetencer_section .section_wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 5rem;
-
-        padding: 4rem;
-    }
-
-    #kompetencer_section h2 {
-        text-align: center;
-        margin-top: 1rem;
-    }
-
-    #kompetencer_section .section_wrapper img {
-        width: 35%;
-    }
-
-    #kompetencer_section .section_wrapper .col {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 1rem;
-
-        text-align: center;
-    }
 
     #contact_section .section_wrapper {
         display: grid;
@@ -240,24 +193,25 @@ body {
     #contact_section .section_wrapper .col img {
         object-fit: cover;
         width: 100%;
+        height: 100%;
     }
 
     #genvej_section .section_wrapper {
-        background-image: url(img/stock/picture7.jpg);
+        background-image: url(img/index/index_1.jpg);
         background-size: cover;
-        background-position: 49% 10%;
+        background-position: -2% 40%;
         text-align: center;
         padding-top: 50%;
         padding: 5rem;
     }
 
     .under_picture {
-        background-image: url("img/stock/stock_index.jpg");
+        background-image: url("img/index/index_5.jpg");
         min-height: 40vh;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
 
     }
 
