@@ -10,6 +10,11 @@ img {
     height: auto;
 }
 
+nav img {
+    display: inherit;
+    width: 20rem;
+}
+
 body {
     background-color: #EEEDE9;
     max-width: 100vw;
@@ -269,7 +274,7 @@ footer {
 
     .line_design {
         display: inline-block;
-        padding-top: 2.5rem;
+        padding-top: 0;
         padding-bottom: 1rem;
         padding-right: 3rem;
         padding-left: 1.5rem;
